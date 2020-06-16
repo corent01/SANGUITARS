@@ -1,0 +1,172 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.panel-title {
+    color: white !important;
+}
+
+.login-panel {
+    margin-top: 150px;
+}
+
+.panel-heading {
+    background-color: red !important;
+}
+
+#memLogin {
+    background-image: url("../img/logo2.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 473px;
+}
+
+@media screen and (max-width: 400px) {
+    #memLogin {
+        background-size: 140px;
+        background-position: bottom 409px right 112px;
+    }
+}
+
+
+
+#inBuHome {
+    display: flex;
+    margin: auto;
+    margin-top: 8px;
+}
+
+
+#inBuEntree {
+    background-color: white !important;
+    color: black;
+}
+
+th {
+    color: white;
+}
+
+td {
+    background-color: white;
+}
+
+.table {
+    margin-top: 50px;
+    color: black;
+}
+
+#inBuMem {
+    width: 175px;
+    background-color: black !important;
+}
+
+#inBuHome2 {
+    width: 150px;
+    background-color: black !important;
+}
+
+
+.header-nav {
+    margin-top: 10px;
+}
+
+.btn .btn-hels .btn-lg {
+}
+
+.col-6 {
+    display: flex;
+    margin: auto;
+    margin-top: -3px;
+    margin-bottom: -335px !important;
+    margin-left: -19px;
+}
+
+.img-gall {
+}
+
+/*===============================================*/
+#bodyWel {
+    background-color: black;
+}
+
+@media screen and (max-width: 400px) {
+    #bodyWel {
+        background-size: auto;
+    }
+
+    #logout {
+        width: 200px;
+    }
+
+    #membres {
+        width: 150px;
+    }
+
+    #php {
+        padding-top: 60px;
+    }
+
+    #wel {
+        margin-bottom: 7px;
+        color: white;
+    }
+
+    #intro p {
+        margin-bottom: 5px !important;
+    }
+
+    #intro {
+        margin-top: 50px;
+    }
+
+    .home-content__buttons {
+        margin-bottom:;
+    }
+}
+
+span .entete :hover {
+    text-align: justify !important;
+    text-decoration: none !important;
+    color: white;
+}
+
+.entete {
+    margin-top: -10px;
+    text-align: justify !important;
+    text-decoration: none !important;
+    text-decoration-color: black;
+    color: white;
+}
+
+#wel {
+    margin-top: 60px;
+}
+
+#intro {
+    margin-top: 50px;
+}
+
+.home-content__buttons {
+    margin-bottom: -150px;
+}
+
+.gallery2 ul li {
+    float: left;
+    display: flex;
+    margin: 68px;
+}
+@media all and (min-width:2200px){
+    .container {
+        width: 44%;
+    }
+
+}
+.{
+    margin-left: 34%;
+}
+
