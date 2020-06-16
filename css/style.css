@@ -18,6 +18,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    
+}
+
+h1, h2{
+    text-align: center;
 }
 
 h1 {
@@ -37,6 +42,7 @@ p {
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 700;
         letter-spacing: 1px;
+        
     }
 
     p {
@@ -174,7 +180,7 @@ a {
     .brand-heading {
         border-top-width: 0px;
         margin-top: 28px;
-        width: 83%;
+        width: 100%;
     }
 }
 
@@ -216,7 +222,7 @@ a {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0 100px 0;
+    padding: 100px 0 100px 20px;
     color: red;
     background: url("../img/intro.jpg");
     background-repeat: no-repeat;
@@ -236,6 +242,7 @@ a {
         .intro .intro-body .brand-heading {
             font-size: 40px;
             text-transform: none;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         }
 
         .intro .intro-body .intro-text {
@@ -383,7 +390,7 @@ a {
 }
 
 .content-section {
-    padding: 40px 11px;
+    padding: 40px 14px;
     clear: both;
 }
 
