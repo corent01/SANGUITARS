@@ -325,7 +325,7 @@ a {
     border: 2px solid #fff;
     border-radius: 100% !important;
     font-size: 35px;
-    color: #f5ba0a;
+    color: black;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -682,7 +682,8 @@ section:after {
 section {
     background-color: #f9f9f9;
     color: #333;
-    overflow: hidden;
+   
+
 }
 
 .col-md-3 li {
