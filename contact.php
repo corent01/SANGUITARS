@@ -16,12 +16,12 @@ if (!$comment) $errors[count($errors)] = 'Please enter your message.';
 if (!$errors) {
 
 
-	$to = 'mastermail@corentinw.xyz';
+	$to = 'stefan@sanguitars.be';
 
 	$from = $name . ' <' . $email . '>';
 
 	//subject and the html message
-	$subject = 'Hello Corentin you have a Message or a Testimonial from ' . $name;
+	$subject = 'Hello Stefan you have a Message or a Testimonial from ' . $name;
 	$message = 'Name: ' . $name . '<br/><br/>
 		       Email: ' . $email . '<br/><br/>
 		       Message: ' . nl2br($comment) . '<br/>';

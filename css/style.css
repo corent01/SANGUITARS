@@ -104,8 +104,14 @@ a {
                 outline: 0;
             }
 
-    .navbar-custom a {
-    }
+            .navbar-brand{
+               padding: unset !important;
+            }
+
+            .navbar-brand>img {
+                height: 6vh;
+                position: relative;
+            }
 
     .navbar-custom .nav li a {
         -webkit-transition: background .3s ease-in-out;
@@ -147,6 +153,52 @@ a {
 
 }
 
+@media(min-width:768px){
+    .brand{
+        position: absolute !important;
+        width: 8vw !important;
+    }
+    .brand-text{
+        font-size: 22px !important;
+        position: relative !important;
+        top: -72px !important;
+        right: -73px !important;
+        font-family: fantasy !important;
+        line-height: 24px !important;
+        text-transform: uppercase !important;
+        width: 50% !important;
+     }
+     .brand-logo{
+        position: relative !important;
+        top: -13px !important;
+        height: 10vh !important;
+        width: unset !important;
+     }
+ 
+ }
+
+ .brand-text{
+    font-size: 19px;
+    position: relative;
+    top: -57px;
+    right: -56px;
+    font-family: fantasy;
+    line-height: 20px;
+    text-transform: uppercase;
+    width: 50%;
+ }
+
+ .brand-logo{
+    position: relative;
+    top: -8px;
+    height: 10vh;
+    width: 100%;
+ }
+
+.brand{
+    position: absolute;
+    width: 19vw;
+}
 
 .btn-hels-nav {
     margin-top: -2% !important;
@@ -255,12 +307,9 @@ a {
     padding-top: 4%;
 }
 
-.text-mainpage {
-}
-
 #intro-text {
-    background-color: rgba(255,255,255,0.5) !important;
-    color: #333 !important;
+    background-color: rgba(4, 4, 4, 0.5) !important;
+    color: #fff0f0 !important;
     margin-top: 100px !important;
 }
 
